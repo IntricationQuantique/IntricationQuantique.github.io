@@ -6,17 +6,24 @@ html {
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
   width: 100%;
   height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(153, 255, 221);
 }
 
 header {
   background-color: rgb(76, 124, 108);
   width: 100%;
-  height: 100%;
   margin: 0px;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color:#111;
+  margin: 0px;
+  padding: 0px;
 }
 
 #titre {
@@ -117,4 +124,3 @@ header {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
-  
