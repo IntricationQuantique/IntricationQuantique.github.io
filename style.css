@@ -17,33 +17,63 @@ header {
   background-color: rgb(76, 124, 108);
   width: 100%;
   margin: 0px;
+  padding: 0px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(76, 124, 108);
+  padding: 10px;
 }
 
 h1 {
-  font-family: "Times New Roman", Times, serif;
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  font-family: "Sofia", sans-serif;
+  text-shadow: 3px 3px 3px #ababab;
   color:#111;
   margin: 0px;
   padding: 0px;
 }
 
-#titre {
-  text-align: center;
-  display: inline;
-  width: 100px;
-  height: 100px;
-  padding: 5px;
+p {
+  font-size: 1.5em;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 2.5em;
+  border-radius: 12px;
+  font-size: 1em;
+}
+
+.corps{
+  margin: 0px;
+  padding: 1em;
 }
 
 .sidebar {
   height: 100%; 
   width: 0; 
-  position: fixed; 
+  position: fixed;
   z-index: 1; 
   top: 0;
   left: 0;
   background-color: #111; 
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
+  padding-top: 2em; /* Place content 60px from the top */
   transition: 0.5s; 
 }
 
@@ -82,13 +112,14 @@ h1 {
 }
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
   border-radius: 50%;
+  font-size: 3em;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  margin: 5px 2px;
 }
 
 .fa:hover {
@@ -107,7 +138,7 @@ h1 {
 
 #main {
   transition: margin-left .5s; 
-  padding: 20px;
+  padding: 1em;
 }
 
 #sticky {
