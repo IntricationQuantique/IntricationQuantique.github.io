@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="UTF-8" />
         <title>Exposition-Lycée-Angellier</title>
         <link rel="stylesheet" href="./style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
         <noscript>Pour utiliser ce site, merci d'activer JavaScript.</noscript>
     </head>
     <body>
@@ -15,29 +16,38 @@
                     <a href="#">Visiter</a>
                     <a href="#">Découvrir</a>
                     <a href="#">En ce moment</a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                </div> 
-                <div id="main">
-                    <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
                 </div>
-                <script>
-                    function openNav() {
-                    document.getElementById("verticale").style.width = "250px";
-                    document.getElementById("main").style.marginLeft = "250px";
-                        }
-                    function closeNav() {
-                    document.getElementById("verticale").style.width = "0";
-                    document.getElementById("main").style.marginLeft = "0";
+            </div>
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+            </div>
+            <script>
+                function openNav() {
+                document.getElementById("verticale").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
                     }
-                </script>
-            </div>
-            <div id="titre">
-                <h1>Angellier expo</h1>
-            </div>
+                function closeNav() {
+                document.getElementById("verticale").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+                }
+            </script>
+            <button onclick="myFunction()" class="dark">&#9788; mode sombre &#9790;</button>
+            <script>
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                }
+            </script>     
+            <h1>Angellier expo</h1>
             <hr>
             <br>
         </header>
-        <p>futur site de l'exposition du lycée Angellier</p>  
+        <div class="corps">
+            <p>futur site de l'exposition du lycée Angellier</p>
+        </div>
+        <footer>
+            <a text-align="right" href="#" class="fa fa-instagram fa-2x"></a>
+            <a href="#" class="fa fa-youtube fa-2x"></a>
+        </footer>
     </body>
 </html>
