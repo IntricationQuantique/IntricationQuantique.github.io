@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Angel City Museum</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <noscript>Pour utiliser ce site, merci d'activer JavaScript.</noscript>
+    </head>
+    <body>
+        <header role="banner">
+            <div id="sticky">
+                <div id="verticale" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="./index.html">Accueil</a>
+                    <a href="./visiter.html">Visiter</a>
+                    <a href="./encemoment.html">En ce moment</a>
+                </div>
+            </div>
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+            </div>
+            <script>
+                function openNav() {
+                document.getElementById("verticale").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+                    }
+                function closeNav() {
+                document.getElementById("verticale").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+                }
+            </script>
+            <button onclick="myFunction()" class="dark">&#9788; mode sombre &#9790;</button>
+            <script>
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                }
+            </script>
+            <div class="parent">
+                <img src="./images/bleu.png" id="logo">
+            </div>
+            <h1>Découvrir</h1>
+            <hr>
+            <br>
+        </header>
+        <div class="corps">
+            <p>futur site du musée d'Angel</p>
+        </div>
+        <footer>
+            <a text-align="right" href="#" class="fa fa-instagram fa-2x"></a>
+            <a href="#" class="fa fa-youtube fa-2x"></a>
+        </footer>
+    </body>
+</html>
