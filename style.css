@@ -51,7 +51,7 @@ p {
 }
 
 .dark {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   margin: 2.5em;
@@ -63,6 +63,11 @@ p {
   margin: 0px;
   padding: 1em;
 }
+
+.parent{
+  text-align : center;
+  top: 1em;
+ }
 
 .sidebar {
   height: 100%; 
@@ -149,6 +154,11 @@ p {
   width: 100px;
   height: 100px;
   padding: 5px;
+}
+
+#logo {
+  width: 10em;
+  height: 10em;
 }
 
 @media screen and (max-height: 450px) {
