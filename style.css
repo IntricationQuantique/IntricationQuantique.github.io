@@ -31,6 +31,15 @@ h1 {
     padding: 0px;
 }
 
+td{
+    width: 50%;
+}
+
+img{
+    width: 40%;
+    height: 40%; 
+}
+
 p {
     font-size: 1.5em;
 }
@@ -38,9 +47,4 @@ p {
 .corps{
     margin: 0px;
     padding: 1em;
-}
-
-.premier{
-    width : 400px;
-    height : 400px;
 }
