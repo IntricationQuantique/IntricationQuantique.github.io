@@ -1,11 +1,11 @@
-html {
+html{
     margin:0;
     padding:0;
     width:100%;
     height:100%;
 }
 
-body {
+body{
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -13,17 +13,17 @@ body {
     background-color: rgb(153, 255, 221);
 }
 
-header {
+header{
     background-color: rgb(76, 124, 108);
     width: 100%;
     margin: 0px;
     padding: 0px;
 }
 
-h1 {
+h1{
     display: block;
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     font-family: "Sofia", sans-serif;
     text-shadow: 3px 3px 3px #ababab;
     color:#111;
@@ -31,18 +31,39 @@ h1 {
     padding: 0px;
 }
 
+h3{
+    font-size: 2em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0.5em;
+    padding: 0px;
+}
+
+table{
+    border-spacing: 1px 2em;
+}
+
 td{
-    width: 50%;
+    width: 60%;
 }
 
 img{
-    width: 40%;
-    height: 40%; 
+    width: 49%;
 }
 
-p {
-    font-size: 1.5em;
+ul{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 3em;
+    padding: 1%;
 }
+
+li{
+    font-size: 2em;
+}
+
 
 .corps{
     margin: 0px;
